@@ -1,5 +1,6 @@
 :root {
   --Dark-Blue: hsl(213, 19%, 18%);
+  --Dark-Blue-2: hsl(219, 18%, 15%);
   --Very-Dark-Blue: hsl(216, 12%, 8%);
   --Light-Grey: hsl(217, 12%, 63%);
   --Medium-Grey: hsl(216, 12%, 54%);
@@ -23,11 +24,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: var(--Very-Dark-Blue);
 }
 
 .main {
-  background-color: var(--Very-Dark-Blue);
+  background-color: var(--Dark-Blue-2);
   width: 412px;
   height: 415px;
   position: relative;
@@ -52,7 +53,7 @@ body {
 
 .h1--how {
   color: #ffffff;
-  margin-top: 8px;
+  margin-top: 18px;
   margin-bottom: 0;
   letter-spacing: 0.9px;
   font-size: 1.63em;
